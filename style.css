@@ -1,0 +1,170 @@
+header{
+    margin: 0;
+    width: 100%;
+    height: 70px;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.283);
+    border-radius: 20px;
+}
+header .logo{
+    padding: 10px 10%;
+    margin: 10px;
+}
+header .logo a{
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+header nav{
+    padding-right: 10%;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+header nav ul li{
+    margin: 10px;
+}
+header nav ul li a{
+    font-weight: 500;
+    font-family: sans-serif;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+header nav ul li a:hover{
+    color: #fff;
+    background: black;
+    border-radius: 20px;
+    transition: 0.7s ease;
+}
+
+
+
+
+section{
+    min-height: 100vh;
+    padding: 15px 10%;
+}
+#home{
+    height: 100vh;
+}
+#home .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+#home .content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: justify;
+    margin: 20px;
+}
+#home .content h1{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    line-height: 1;
+}
+#home .content p{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.8;
+    font-family: sans-serif;
+}
+#home .img img{
+    width: 25vw;
+    margin-right: 60px;
+    margin-top: 40px;
+    border-radius: 50%;
+    border: 2px black solid;
+    box-shadow: 1px 1px  10px rgba(0, 0, 0, 0.386);
+}
+#quiz{
+    background: rgb(233, 233, 233);
+}
+#quiz .container .box{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 0.5fr));
+    gap: 2.5rem;
+    align-items: center;
+
+}
+#quiz .container h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    background: black;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+#quiz .container p{
+    font-family: sans-serif;
+}
+
+
+#contact{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+#contact .content{
+    width: 500px;
+   
+}
+#contact .contact{
+    width: 350px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+   
+}
+#contact .contact .cont-box{
+    font-family: sans-serif;
+    font-weight: 500;
+    grid: 20px
+}
+#contact .contact .cont-box label{
+   padding-top: 10px;
+   font-size: 15px;
+}
+#contact .contact .cont-box input{
+    border: none;
+    background: #eaeaea;
+    border-radius: 20px;
+}
+#contact .contact .cont-box .submit{
+    background: black;
+    color: #fff;
+    padding: 5px 20px 5px  20px;
+   left: auto;
+}
+#contact .contact .message textarea{
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    border: 2px black so;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+table, tr, th, td{
+    border: 1px solid black;
+    padding: 20px;
+}
+th{
+    background: black;
+    
+    
+} 
+#contact table tr th a{
+    color: #fff;
+    text-decoration: none;
+}
